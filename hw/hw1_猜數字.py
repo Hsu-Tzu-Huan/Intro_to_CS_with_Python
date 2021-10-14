@@ -39,13 +39,14 @@ elif (num1[0] != num1[1] and \
         elif num2[3] in num1:
             B += 1
 
-        if A == 4:
-            print("Well Done!")
-
         print(f"The first number:{num1}")
         print(f"The second number:{num2}")
         print(f"The result of comparison:{A}A{B}B")
-        print("Let's try again :P")
+
+        if A == 4:
+            print("Well Done!")
+        else:
+            print("Let's try again :P")
 
     else:
         print("Please enter the numbers again. The digits can't be repeated.")
